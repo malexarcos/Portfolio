@@ -15,6 +15,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
     padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header h1 {
@@ -40,25 +43,113 @@ body{
 
 h2{
     font-size: 50px;
-    color: #e29578;
+    color: #00bbf9;
+    margin-bottom: 30px;
 }
+
 .profilePic img {
     display: flex;
     justify-content: center;
 }
+
 p{
     font-size: 33px;
 
 }
+
 .About-Me img {
     height: 300px;
     width: 200px;
+    margin: 70px;
 }
+
+.About-Me img:hover {
+    filter:brightness(150%)
+}
+
 .Work img {
     height: 250px;
     width: 450px;  
 }
-.Contact-Me img {
-    height: 100px;
+
+.Work img:hover {
+    filter:brightness(150%)
+}
+
+.Contact img {
     width: 200px;
+}
+
+.Contact img:hover {
+    filter:brightness(120%)
+}
+
+.Resume img {
+    height: 250px;
+    width: 450px;  
+}
+
+.About-Me {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.About-Me p {
+    border: 5px solid #00bbf9;
+    width: 50%;
+    background-color: #9b5de5;
+}
+
+.Work {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    margin: 70px;
+    padding: 30px;
+}
+
+.Work p {
+    border: 5px solid #00bbf9;
+    width: 50%;
+    background-color: #9b5de5;
+}
+
+.Contact {
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+    padding: 30px;
+}
+
+.Contact p {
+    border: 5px solid #00bbf9;
+    width: 50%;
+    background-color: #9b5de5;
+}
+.Resume {
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+    padding: 30px;
+}
+
+.Resume p {
+    border: 5px solid #00bbf9;
+    width: 50%;
+    background-color: #9b5de5;
+}
+.header img:hover {
+filter: brightness(200%);
+}
+
+.header img {
+    width: 25%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .navBar ul li {
+        font-size: 30px;
+    }
 }
