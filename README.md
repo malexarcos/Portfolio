@@ -1,5 +1,5 @@
 # description
-creating a portfolio so future employers can see my work
+a portfolio where future employers can view what i have created and know more about me
 
 
 ## Author
